@@ -21,11 +21,11 @@ public static void main(String args[]) {
 	    System.out.println("Bismillah");
 	    
 	    String str = (String)"siddiq ";
-	    String str2 =(String)"Asma";
+	    String str2 =(String)"shaik";
 	    
 	    System.out.println(str+str2);
 	    
-	    String str1 =(String)"Asma";
+	    String str1 =(String)"shaik";
 	    int d = 3;
 	    
 	    System.out.println(str1 + d);
