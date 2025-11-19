@@ -10,13 +10,14 @@ public class Mobile {
 		float displaySize=17.22f;
 		int androidVersion=15;
 		
-		System.out.println(brandName);
+		System.out.println("brand Name :"+brandName);
 		System.out.println(ram);
 		System.out.println(storage);
 		System.out.println(operatingSystem);
 		System.out.println(cameraPixel);
 		System.out.println(displaySize);
 		System.out.println(androidVersion);
+		
 		
 	}
 

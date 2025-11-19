@@ -1,0 +1,22 @@
+.Explain the differ b/w JDK, JRE, JVM. 
+ JDK : 
+Java Development Kit is a software development environment that includes JRE and development tools. It's 
+used to create Java applications and applets. JDK includes tools like a compiler, debugger, and documentation generator. 
+JRE : 
+Java Runtime Environment is a set of software tools that provides a runtime environment for running other 
+software. It's used to run Java applications. JRE contains class libraries, supporting files, and the JVM. 
+JVM : 
+Java Virtual Machine is the foundation of Java programming language and ensures the program's Java source 
+code will be platform-agnostic. It's used to run Java bytecode. JVM is included in both JDK and JRE, and Java programs won't run without it. 
+
+What is a variable in Java?
+A variable is a named storage location in memory that holds a value. 
+The value stored in a variable can be changed during program execution, subject to its data type and access modifiers
+
+What are the two main types of data types in Java?
+Java has two categories of data types:
+Primitive Data Types: These are predefined, built-in types that store raw values directly in memory (e.g., int, boolean). 
+They have fixed sizes and do not have associated methods.
+Non-Primitive (Reference) Data Types: 
+These are user-defined or built-in classes that store references (memory addresses) to objects. Examples include String, Array, Class, and Interface.
+ They can have methods associated with them.
