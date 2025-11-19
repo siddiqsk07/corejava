@@ -20,3 +20,30 @@ They have fixed sizes and do not have associated methods.
 Non-Primitive (Reference) Data Types: 
 These are user-defined or built-in classes that store references (memory addresses) to objects. Examples include String, Array, Class, and Interface.
  They can have methods associated with them.
+ 
+ What is Git?	Git is an open-source, distributed version control system (DVCS) used for tracking changes in source code during software development.
+What is GitHub?	GitHub is a web-based hosting service that provides a platform for Git repositories,
+ offering collaboration features like issue tracking, project management, and code review via pull requests.
+Difference between Git and GitHub?	Git is the local tool (software) for version control, while 
+GitHub is a cloud-based service/platform that hosts Git repositories and facilitates team collaboration.
+What is a repository?	A repository (repo) is a storage space that contains all the project files,
+ their entire history, and metadata. It includes the hidden .git directory.
+What is the staging area (Index)?	The staging area is an intermediate area where you can review and format changes before committing them.
+ The git add command is used to move files to this area.
+What is a commit?	A commit is a snapshot of your project at a specific point in time, serving as a save point in your project's history.
+What is a merge conflict?	A conflict occurs when Git cannot automatically resolve differences in code between two branches
+ (e.g., the same line in a file was modified differently in separate branches).
+What is branching?	Branching allows developers to diverge from the main line of development to work on new features or bug 
+fixes in isolation without affecting the main codebase's stability.
+Common Git Commands and Usage
+git init: Initializes a new Git repository in the current directory.
+git clone [url]: Creates a local copy of an existing remote repository.
+git status: Shows the status of changes as untracked, modified, or staged.
+git add [file]: Adds changes to the staging area. git add . stages all modified and new files.
+git commit -m "[message]": Records the staged snapshots permanently in the commit history with a descriptive message.
+git push: Uploads local branch commits to the remote repository.
+git pull: Fetches changes from a remote repository and merges them into the current branch (combines git fetch and git merge).
+git fetch: Downloads objects and refs from a remote repository without merging them into the current working files.
+git checkout [branch-name]: Switches to a different branch. In newer Git versions, git switch [branch-name] can be used.
+git merge [branch-name]: Integrates changes from the specified branch into the current branch, creating a merge commit.
+git branch -d [branch-name]: Deletes a local branch
