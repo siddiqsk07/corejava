@@ -1,5 +1,7 @@
 package net.konic.corejava.variables;
 
+import java.util.Scanner;
+
 public class Mobile {
 	public static void main(String[] args) {
 		String brandName="One Plus 12r";
@@ -17,6 +19,7 @@ public class Mobile {
 		System.out.println(cameraPixel);
 		System.out.println(displaySize);
 		System.out.println(androidVersion);
+		Scanner
 		
 		
 	}
