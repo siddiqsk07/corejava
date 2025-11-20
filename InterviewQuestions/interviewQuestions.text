@@ -47,3 +47,32 @@ git fetch: Downloads objects and refs from a remote repository without merging t
 git checkout [branch-name]: Switches to a different branch. In newer Git versions, git switch [branch-name] can be used.
 git merge [branch-name]: Integrates changes from the specified branch into the current branch, creating a merge commit.
 git branch -d [branch-name]: Deletes a local branch
+
+ What are the different types of operators in Java?
+Java operators can be broadly categorized into:
+Arithmetic Operators: +, -, *, /, % (modulus)
+Relational Operators: ==, !=, >, <, >=, <=
+Logical Operators: && (logical AND), || (logical OR), ! (logical NOT)
+Bitwise Operators: & (bitwise AND), | (bitwise OR), ^ (bitwise XOR), ~ (bitwise NOT), << (left shift), >> (signed right shift), >>> (unsigned right shift)
+Assignment Operators: =, +=, -=, *=, /=, %=, &=, |=, ^=, <<=, >>=, >>>=
+Unary Operators: +, -, ++ (increment), -- (decrement), ! (logical NOT), ~ (bitwise NOT)
+Ternary Operator (Conditional Operator): ? :
+instanceof Operator: Used to check if an object is an instance of a particular class or interface.
+2. Explain the difference between == and equals() in Java.
+== is a relational operator used to compare the memory addresses of two objects (reference equality) or the actual values of primitive types.
+equals() is a method (from the Object class, often overridden in other classes like String) used to compare the content or values of two objects (content equality).
+3. What is the difference between ++i and i++ (pre-increment and post-increment)?
+++i (pre-increment): Increments the value of i before using it in the expression.
+i++ (post-increment): Uses the current value of i in the expression then increments it.
+Example:
+Java
+
+int i = 5;
+int a = ++i; // a will be 6, i will be 6
+int b = i++; // b will be 6, i will be 7
+4. Explain the short-circuiting behavior of logical operators && and ||.
+&& (Logical AND): If the first operand evaluates to false, the second operand is not evaluated because the entire expression will already be false.
+|| (Logical OR): If the first operand evaluates to true, the second operand is not evaluated because the entire expression will already be true.
+5. What is the purpose of the instanceof operator?
+The instanceof operator is used to check if an object is an instance of a particular class or an interface. It returns true if the object is an instance, and false otherwise.
+
