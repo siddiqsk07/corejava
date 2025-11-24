@@ -76,3 +76,25 @@ int b = i++; // b will be 6, i will be 7
 5. What is the purpose of the instanceof operator?
 The instanceof operator is used to check if an object is an instance of a particular class or an interface. It returns true if the object is an instance, and false otherwise.
 
+Explain the difference between a while loop and a do-while loop in Java.
+Answer: A while loop checks the condition before executing the loop body, so the body might not execute at all if the condition is initially false. A do-while loop executes the loop body at least once before checking the condition at the end of the loop.
+When would you prefer to use a for loop over a while loop, and vice-versa?
+Answer: Use for loops when the number of iterations is known or can be easily determined at the beginning (e.g., iterating through an array or a specific range). Use while loops when the number of iterations is unknown and depends on a certain condition being met.
+Can you create an infinite loop using a for loop? Provide an example.
+Answer: Yes. An infinite for loop can be created by omitting the loop conditions, or by providing a condition that always evaluates to true. 
+Java
+
+What is the purpose of the switch statement in Java?
+Answer: The switch statement allows for efficient selection among multiple possible execution paths based on the value of a single variable or expression. It provides a more structured alternative to a series of if-else if statements.
+What happens if you omit the break statement in a switch case?
+Answer: If break is omitted, "fall-through" occurs. The execution continues to the next case label (and its corresponding code) until a break statement is encountered or the end of the switch block is reached.
+What data types are allowed in a switch statement in Java?
+Answer: byte, short, char, int, String (since Java 7), enum types, and their corresponding wrapper classes (Byte, Short, Character, Integer).
+break and continue
+Explain the difference between break and continue statements in Java.
+Answer: break terminates the execution of the innermost loop or switch statement it resides in, transferring control to the statement immediately following the loop or switch. continue skips the remaining part of the current iteration of a loop and proceeds to the next iteration.
+Can break be used outside of a loop or switch statement?
+Answer: No, break can only be used within loops (for, while, do-while) or switch statements. Using it elsewhere will result in a compile-time error. 
+What is a labeled break and when would you use it?
+Answer: A labeled break allows you to exit a specific outer loop when working with nested loops. It is used to break out of a particular named loop, rather than just the innermost one. 
+
