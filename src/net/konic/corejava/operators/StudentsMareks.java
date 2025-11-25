@@ -2,6 +2,8 @@ package net.konic.corejava.operators;
 
 import java.util.Scanner;
 
+import net.konic.corejava.objectsandclasses.Bike;
+
 public class StudentsMareks {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
@@ -16,7 +18,10 @@ public class StudentsMareks {
 		}else {
 			System.out.println("is failed");
 		}
-	
+		
+		
+		
+			
 	}
 
 }

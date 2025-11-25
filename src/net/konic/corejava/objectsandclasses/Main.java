@@ -17,6 +17,19 @@ public class Main {
         c2.start();
         
         
-      
+        
+    	
+		Bike bike=new Bike();
+		
+		bike.brandName="Honda";
+		bike.color="Black";
+		bike.Capacity=15;
+		bike.engineCC=125;
+		bike.fueltype="Petrol";
+		
+		bike.start();
+	}
+        
+        
+     
     }
-}
