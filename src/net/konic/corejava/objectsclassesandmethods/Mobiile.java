@@ -1,9 +1,9 @@
-package net.konic.corejava.objectsandclasses;
+package net.konic.corejava.objectsclassesandmethods;
 
 public class Mobiile {
-	String brand;
+	String brand="maruti";
 	String model;
-	int ram;
+	int ram=6;
 	int storage;
 	double displaySizeinInches;
 	String chargingporttype;

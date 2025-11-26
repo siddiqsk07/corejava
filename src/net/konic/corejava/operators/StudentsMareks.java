@@ -2,7 +2,7 @@ package net.konic.corejava.operators;
 
 import java.util.Scanner;
 
-import net.konic.corejava.objectsandclasses.Bike;
+import net.konic.corejava.objectsclassesandmethods.Bike;
 
 public class StudentsMareks {
 	public static void main(String[] args) {

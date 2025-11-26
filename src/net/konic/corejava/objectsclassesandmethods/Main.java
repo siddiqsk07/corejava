@@ -1,4 +1,4 @@
-package net.konic.corejava.objectsandclasses;
+package net.konic.corejava.objectsclassesandmethods;
 
 public class Main {
 	
