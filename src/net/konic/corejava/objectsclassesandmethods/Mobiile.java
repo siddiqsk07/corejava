@@ -8,7 +8,7 @@ public class Mobiile {
 	double displaySizeinInches;
 	String chargingporttype;
 	
-	void poweronoff(){
+	void camera() {
 		System.out.println("Brandname :"+brand);
 		System.out.println("Model :"+model);
 		System.out.println("Ram :"+ram);
