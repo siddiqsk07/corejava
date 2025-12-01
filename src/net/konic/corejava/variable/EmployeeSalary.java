@@ -6,9 +6,9 @@ public class EmployeeSalary {
 	String name;
 	int Salary;
 	
-	public void setDetails(String name,int Salary) {
-		name = "Asif";
-		Salary= 25000;
+	public void setDetails(String n,int S) {
+		name = n;
+		Salary=S ;
 	}
 	public double getYearlySalary() {
 		return Salary * 12;

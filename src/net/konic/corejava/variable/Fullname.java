@@ -9,9 +9,9 @@ public class Fullname {
 	
 	public void readname() {
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter First Name :"+firstname);
+		System.out.println("Enter First Name :");
 		firstname=sc.next();
-		System.out.println("Enter Second NAme :"+lastname);
+		System.out.println("Enter Second NAme :");
 		lastname=sc.next();
 		sc.close();
 	}

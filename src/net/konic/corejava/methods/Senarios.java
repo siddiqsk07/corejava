@@ -17,6 +17,7 @@ public class Senarios {
 		int z=x*y;
 		System.out.println(z);
 		return z;
+
 	}
 	
 	public float div(int s,int t) {
