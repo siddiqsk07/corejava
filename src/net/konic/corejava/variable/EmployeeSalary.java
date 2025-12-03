@@ -8,7 +8,7 @@ public class EmployeeSalary {
 	
 	public void setDetails(String n,int S) {
 		name = n;
-		Salary=S ;
+		Salary=S;
 	}
 	public double getYearlySalary() {
 		return Salary * 12;
