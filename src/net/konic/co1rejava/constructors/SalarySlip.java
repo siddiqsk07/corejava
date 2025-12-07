@@ -12,14 +12,14 @@ public class SalarySlip {
 
 	}
 	public double yearlySalary() {
-		return MonthlySalary * 10;
+		return MonthlySalary * 12;
 	}
 	public static void main(String[] args) {
-		SalarySlip sal=new SalarySlip("Siddiq", 3000000.0000);
+		SalarySlip sal=new SalarySlip("Siddiq", 30000);
 		sal.yearlySalary();
 		System.out.println("Employee :"+sal.Name);
 		System.out.println("Monthly Salary :"+sal.MonthlySalary);
-		System.out.println("YearlySalary :"+sal.yearlySalary);
+		System.out.println("YearlySalary :"+sal.yearlySalary());
 	}
 
 }
