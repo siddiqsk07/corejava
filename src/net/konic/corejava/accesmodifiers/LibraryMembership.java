@@ -8,11 +8,13 @@ public class LibraryMembership {
 		MemberName = "Guest Member";
 
 	}
+
 	public LibraryMembership(String n) {
-		 MemberName= n;
+		MemberName = n;
 	}
+
 	public void Selectbook(int option) {
-		switch(option) {
+		switch (option) {
 		case 1:
 			System.out.println("Book :Maths");
 			break;
@@ -31,19 +33,17 @@ public class LibraryMembership {
 		case 6:
 			System.out.println("Invalid book");
 			break;
-			
+
 		}
 	}
+
 	public static void main(String[] args) {
-		System.out.println("Library Name :"+LibraryName);
-		LibraryMembership library=new LibraryMembership("Ahamed");
-		System.out.println("MemberName :"+library.MemberName);
+		System.out.println("Library Name :" + LibraryName);
+		LibraryMembership library = new LibraryMembership("Ahamed");
+		System.out.println("MemberName :" + library.MemberName);
 		library.Selectbook(2);
 		
-		
-		
-		
-		
+
 	}
 
 }
