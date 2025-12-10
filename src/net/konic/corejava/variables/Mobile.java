@@ -19,7 +19,7 @@ public class Mobile {
 		System.out.println(cameraPixel);
 		System.out.println(displaySize);
 		System.out.println(androidVersion);
-		Scanner
+		
 		
 		
 	}

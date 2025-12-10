@@ -13,8 +13,6 @@ public class SmartMobile {
 		mobile.ram=16;
 		mobile.storage=256;
 		
-		mobile.poweronoff();
-		
 	}
 		
 	

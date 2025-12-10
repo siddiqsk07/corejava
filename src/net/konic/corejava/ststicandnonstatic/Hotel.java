@@ -15,7 +15,7 @@ public class Hotel {
 		
 		Hotel hotel=new Hotel(7);
 				System.out.println("Room No :"+hotel.RoomNo);
-			Car.class;
+			
 	}
 
 }

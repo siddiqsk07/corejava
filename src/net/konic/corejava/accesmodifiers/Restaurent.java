@@ -1,6 +1,6 @@
 package net.konic.corejava.accesmodifiers;
 
-
+import net.konic.corejava.inherit.Vehicle;
 
 public class Restaurent {
 
@@ -27,6 +27,7 @@ public class Restaurent {
 		System.out.println("Restaurant NAme :"+RestaurantName);
 		Restaurent restaurent=new Restaurent("Siddiq");
 		restaurent.orderfood(2);
+		
 	}
 
 }

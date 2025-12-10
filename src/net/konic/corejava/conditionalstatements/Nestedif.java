@@ -17,7 +17,7 @@ public class Nestedif {
 		}else {
 			System.out.println("Fail...");
 		}
-		sc.close();!~
+		sc.close();
 				
 	}
 
