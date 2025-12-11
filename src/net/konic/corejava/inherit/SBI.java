@@ -8,10 +8,11 @@ class SBI extends Bank {
 	void deposite() {
 		System.out.println("SBI Deposite Sucessesful");
 	}
+
 	public static void main(String[] args) {
 		SBI sbi = new SBI();
 		sbi.deposite();
+		sbi.Sbifeautures();
 
-		sbi.deposite1();
 	}
 }
