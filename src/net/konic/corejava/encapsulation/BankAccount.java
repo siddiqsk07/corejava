@@ -8,7 +8,11 @@ public class BankAccount {
 	}
 
 	public void setBalance(int balance) {
-		Balance = balance;
+		if(balance > 0) {
+			this.Balance=balance;
+		}else {
+			System.out.println("Invalid");
+		}
 	}
 
 	public static void main(String[] args) {
