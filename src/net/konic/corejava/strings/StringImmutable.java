@@ -3,15 +3,15 @@ package net.konic.corejava.strings;
 public class StringImmutable {
 	public static void main(String[] args) {
 
-		String Full_NAME = "SIDDIQ";
+		String name = "SIDDIQ";
 
 		// concat
 
-		Full_NAME.concat("Shaik Siddiq");
-		System.out.println( "Name :"+Full_NAME);
+		name.concat("Shaik");
+		System.out.println( "Name :"+name);
 		
-		Full_NAME=Full_NAME.concat("SHAIK SIDDIQ");
-		System.out.println("Name After Concate:"+Full_NAME);
+		name=name.concat("SHAIK SIDDIQ");
+		System.out.println("Name After Concate:"+name);
 
 	}
 
