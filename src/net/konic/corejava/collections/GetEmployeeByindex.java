@@ -2,7 +2,8 @@ package net.konic.corejava.collections;
 
 import java.util.*;
 
-public class EmployeeList {
+public class GetEmployeeByindex {
+
 	List<Employee> addemployeedata() {
 		Employee emp = new Employee();
 		emp.setEmployeeName("Ayaan");
@@ -30,9 +31,9 @@ public class EmployeeList {
 	}
 
 	public static void main(String[] args) {
-		EmployeeList emp2 = new EmployeeList();
-		List<Employee> output = emp2.addemployeedata();
-		System.out.println(output);
+		GetEmployeeByindex idx = new GetEmployeeByindex();
+		List<Employee> output = idx.addemployeedata();
+		System.out.println("Employee :" + output.get(1));
 
 	}
 

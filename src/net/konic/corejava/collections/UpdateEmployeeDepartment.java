@@ -2,8 +2,9 @@ package net.konic.corejava.collections;
 
 import java.util.*;
 
-public class EmployeeList {
-	List<Employee> addemployeedata() {
+public class UpdateEmployeeDepartment {
+
+	Employee updateDetails() {
 		Employee emp = new Employee();
 		emp.setEmployeeName("Ayaan");
 		emp.setId(101);
@@ -25,14 +26,15 @@ public class EmployeeList {
 		list.add(emp1);
 		list.add(emp3);
 
-		return list;
+		Employee role = new Employee();
+		role.setRole("admin");
+
+		return role;
 
 	}
 
 	public static void main(String[] args) {
-		EmployeeList emp2 = new EmployeeList();
-		List<Employee> output = emp2.addemployeedata();
-		System.out.println(output);
+		UpdateEmployeeDepartment update = new UpdateEmployeeDepartment();
 
 	}
 

@@ -3,7 +3,13 @@ package net.konic.corejava.collections;
 public class Employee {
 	private String employeeName;
 	private int id;
-	private double salary;
+	private String role;
+	public String getRole() {
+		return role;
+	}
+	public void setRole(String role) {
+		this.role = role;
+	}
 	public String getEmployeeName() {
 		return employeeName;
 	}
@@ -16,15 +22,9 @@ public class Employee {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public double getSalary() {
-		return salary;
-	}
-	public void setSalary(double salary) {
-		this.salary = salary;
-	}
 	@Override
 	public String toString() {
-		return "Employee [employeeName=" + employeeName + ", id=" + id + ", salary=" + salary + "]";
+		return "Employee [employeeName=" + employeeName + ", id=" + id + ", role=" + role + "]";
 	}
 	
 

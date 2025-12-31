@@ -4,6 +4,9 @@ public class Car {
 	private String brandName;
 	private double price;
 	private String colour;
+	public Car(String string) {
+		// TODO Auto-generated constructor stub
+	}
 	public String getBrandName() {
 		return brandName;
 	}

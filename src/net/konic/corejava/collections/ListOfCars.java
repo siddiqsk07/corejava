@@ -4,12 +4,12 @@ import java.util.*;
 
 public class ListOfCars {
 	List<Car> addCarDetails() {
-		Car car1 = new Car();
+		Car car1 = new Car(null);
 		car1.setBrandName("BMW");
 		car1.setPrice(1000000);
 		car1.setColour("Blue");
 
-		Car car2 = new Car();
+		Car car2 = new Car(null);
 		car2.setBrandName("Skoda");
 		car2.setPrice(1500000);
 		car2.setColour("Black");
