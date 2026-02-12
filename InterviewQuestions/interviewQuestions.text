@@ -1,0 +1,100 @@
+.Explain the differ b/w JDK, JRE, JVM. 
+ JDK : 
+Java Development Kit is a software development environment that includes JRE and development tools. It's 
+used to create Java applications and applets. JDK includes tools like a compiler, debugger, and documentation generator. 
+JRE : 
+Java Runtime Environment is a set of software tools that provides a runtime environment for running other 
+software. It's used to run Java applications. JRE contains class libraries, supporting files, and the JVM. 
+JVM : 
+Java Virtual Machine is the foundation of Java programming language and ensures the program's Java source 
+code will be platform-agnostic. It's used to run Java bytecode. JVM is included in both JDK and JRE, and Java programs won't run without it. 
+
+What is a variable in Java?
+A variable is a named storage location in memory that holds a value. 
+The value stored in a variable can be changed during program execution, subject to its data type and access modifiers
+
+What are the two main types of data types in Java?
+Java has two categories of data types:
+Primitive Data Types: These are predefined, built-in types that store raw values directly in memory (e.g., int, boolean). 
+They have fixed sizes and do not have associated methods.
+Non-Primitive (Reference) Data Types: 
+These are user-defined or built-in classes that store references (memory addresses) to objects. Examples include String, Array, Class, and Interface.
+ They can have methods associated with them.
+ 
+ What is Git?	Git is an open-source, distributed version control system (DVCS) used for tracking changes in source code during software development.
+What is GitHub?	GitHub is a web-based hosting service that provides a platform for Git repositories,
+ offering collaboration features like issue tracking, project management, and code review via pull requests.
+Difference between Git and GitHub?	Git is the local tool (software) for version control, while 
+GitHub is a cloud-based service/platform that hosts Git repositories and facilitates team collaboration.
+What is a repository?	A repository (repo) is a storage space that contains all the project files,
+ their entire history, and metadata. It includes the hidden .git directory.
+What is the staging area (Index)?	The staging area is an intermediate area where you can review and format changes before committing them.
+ The git add command is used to move files to this area.
+What is a commit?	A commit is a snapshot of your project at a specific point in time, serving as a save point in your project's history.
+What is a merge conflict?	A conflict occurs when Git cannot automatically resolve differences in code between two branches
+ (e.g., the same line in a file was modified differently in separate branches).
+What is branching?	Branching allows developers to diverge from the main line of development to work on new features or bug 
+fixes in isolation without affecting the main codebase's stability.
+Common Git Commands and Usage
+git init: Initializes a new Git repository in the current directory.
+git clone [url]: Creates a local copy of an existing remote repository.
+git status: Shows the status of changes as untracked, modified, or staged.
+git add [file]: Adds changes to the staging area. git add . stages all modified and new files.
+git commit -m "[message]": Records the staged snapshots permanently in the commit history with a descriptive message.
+git push: Uploads local branch commits to the remote repository.
+git pull: Fetches changes from a remote repository and merges them into the current branch (combines git fetch and git merge).
+git fetch: Downloads objects and refs from a remote repository without merging them into the current working files.
+git checkout [branch-name]: Switches to a different branch. In newer Git versions, git switch [branch-name] can be used.
+git merge [branch-name]: Integrates changes from the specified branch into the current branch, creating a merge commit.
+git branch -d [branch-name]: Deletes a local branch
+
+ What are the different types of operators in Java?
+Java operators can be broadly categorized into:
+Arithmetic Operators: +, -, *, /, % (modulus)
+Relational Operators: ==, !=, >, <, >=, <=
+Logical Operators: && (logical AND), || (logical OR), ! (logical NOT)
+Bitwise Operators: & (bitwise AND), | (bitwise OR), ^ (bitwise XOR), ~ (bitwise NOT), << (left shift), >> (signed right shift), >>> (unsigned right shift)
+Assignment Operators: =, +=, -=, *=, /=, %=, &=, |=, ^=, <<=, >>=, >>>=
+Unary Operators: +, -, ++ (increment), -- (decrement), ! (logical NOT), ~ (bitwise NOT)
+Ternary Operator (Conditional Operator): ? :
+instanceof Operator: Used to check if an object is an instance of a particular class or interface.
+2. Explain the difference between == and equals() in Java.
+== is a relational operator used to compare the memory addresses of two objects (reference equality) or the actual values of primitive types.
+equals() is a method (from the Object class, often overridden in other classes like String) used to compare the content or values of two objects (content equality).
+3. What is the difference between ++i and i++ (pre-increment and post-increment)?
+++i (pre-increment): Increments the value of i before using it in the expression.
+i++ (post-increment): Uses the current value of i in the expression then increments it.
+Example:
+Java
+
+int i = 5;
+int a = ++i; // a will be 6, i will be 6
+int b = i++; // b will be 6, i will be 7
+4. Explain the short-circuiting behavior of logical operators && and ||.
+&& (Logical AND): If the first operand evaluates to false, the second operand is not evaluated because the entire expression will already be false.
+|| (Logical OR): If the first operand evaluates to true, the second operand is not evaluated because the entire expression will already be true.
+5. What is the purpose of the instanceof operator?
+The instanceof operator is used to check if an object is an instance of a particular class or an interface. It returns true if the object is an instance, and false otherwise.
+
+Explain the difference between a while loop and a do-while loop in Java.
+Answer: A while loop checks the condition before executing the loop body, so the body might not execute at all if the condition is initially false. A do-while loop executes the loop body at least once before checking the condition at the end of the loop.
+When would you prefer to use a for loop over a while loop, and vice-versa?
+Answer: Use for loops when the number of iterations is known or can be easily determined at the beginning (e.g., iterating through an array or a specific range). Use while loops when the number of iterations is unknown and depends on a certain condition being met.
+Can you create an infinite loop using a for loop? Provide an example.
+Answer: Yes. An infinite for loop can be created by omitting the loop conditions, or by providing a condition that always evaluates to true. 
+Java
+
+What is the purpose of the switch statement in Java?
+Answer: The switch statement allows for efficient selection among multiple possible execution paths based on the value of a single variable or expression. It provides a more structured alternative to a series of if-else if statements.
+What happens if you omit the break statement in a switch case?
+Answer: If break is omitted, "fall-through" occurs. The execution continues to the next case label (and its corresponding code) until a break statement is encountered or the end of the switch block is reached.
+What data types are allowed in a switch statement in Java?
+Answer: byte, short, char, int, String (since Java 7), enum types, and their corresponding wrapper classes (Byte, Short, Character, Integer).
+break and continue
+Explain the difference between break and continue statements in Java.
+Answer: break terminates the execution of the innermost loop or switch statement it resides in, transferring control to the statement immediately following the loop or switch. continue skips the remaining part of the current iteration of a loop and proceeds to the next iteration.
+Can break be used outside of a loop or switch statement?
+Answer: No, break can only be used within loops (for, while, do-while) or switch statements. Using it elsewhere will result in a compile-time error. 
+What is a labeled break and when would you use it?
+Answer: A labeled break allows you to exit a specific outer loop when working with nested loops. It is used to break out of a particular named loop, rather than just the innermost one. 
+
